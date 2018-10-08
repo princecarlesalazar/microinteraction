@@ -1,0 +1,42 @@
+@import "vendor/bootstrap/bootstrap";
+
+body{
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+
+header{
+    padding: 20px;
+}
+
+.sample-container{
+    margin: 10px;
+}
+
+.sample1{
+    background: #3498db;
+    text-align: center;
+    padding: 30px;
+    .menu{
+        margin: 0 auto;
+        width: 80px;
+        cursor: pointer;
+        span{
+            background: #FFF;
+            display: block;
+            height: 7px;
+            width: 100%;
+            margin: 15px 0;
+            transition: 0.15s ease;
+        }
+    }
+    .menu:hover{
+        span:nth-child(1){
+            transform: rotate(-45deg) translate(-10px, 0px);
+            width: 50%;
+        }
+        span:nth-child(3){
+            transform: rotate(45deg) translate(-10px, 0);
+            width: 50%;
+          }
+    }
+}
