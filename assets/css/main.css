@@ -6781,25 +6781,42 @@ a.text-dark:hover, a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6; } }
 .blue1 {
-  background: #3498db;
+  background: #007aff;
   transition: 0.15s ease; }
 
-.blue2 {
-  background: #2980b9; }
-
 .orange1 {
-  background: #e67e22; }
-
-.orange2 {
-  background: #d35400; }
+  background: #ff9500; }
 
 body {
-  font-family: 'Quattrocento Sans', sans-serif; }
+  font-family: 'Quattrocento Sans', sans-serif;
+  background: #2D2D2D; }
+
+main {
+  margin: 50px auto; }
 
 header {
-  padding: 20px; }
+  background: #151617;
+  padding: 20px;
+  height: 50vh; }
+  header h1 {
+    background-image: linear-gradient(90deg, #E64C4C 0%, #EF32FB 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    font-size: 50px;
+    font-weight: 600;
+    margin: 0; }
+  header p {
+    color: #fff;
+    font-size: 16px;
+    max-width: 550px; }
+
+h2 {
+  margin: 30px 0; }
 
 .sample-container {
+  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.4);
   margin: 10px;
   text-align: center;
   padding: 30px;
