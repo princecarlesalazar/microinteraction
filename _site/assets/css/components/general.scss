@@ -1,0 +1,43 @@
+body{
+    font-family: 'Quattrocento Sans', sans-serif;
+    background: #2D2D2D;
+}
+
+main{
+    margin: 50px auto;
+}
+
+header{
+    background: #151617;
+    padding: 20px;
+    height: 50vh;
+    h1{
+        background-image: linear-gradient(90deg, #E64C4C 0%, #EF32FB 100%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-fill-color: transparent;
+        font-size: 50px;
+        font-weight: 600;
+        margin: 0;
+    }
+    p{
+        color: #fff;
+        font-size: 16px;
+        max-width: 550px;
+    }
+}
+
+h2{
+    margin: 30px 0;
+}
+
+.sample-container{
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.4);
+    margin: 10px;
+    text-align: center;
+    padding: 30px;
+    height: 200px;
+    width: 200px;
+    display: table;
+}
