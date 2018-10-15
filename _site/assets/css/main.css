@@ -6787,6 +6787,18 @@ a.text-dark:hover, a.text-dark:focus {
 .orange1 {
   background: #ff9500; }
 
+.violet1 {
+  background: #5856d6; }
+
+.red1 {
+  background: #ff3b30; }
+
+.green1 {
+  background: #4cd964; }
+
+.yellow {
+  background: #ffcc00; }
+
 body {
   font-family: 'Quattrocento Sans', sans-serif;
   background: #2D2D2D; }
@@ -6830,6 +6842,7 @@ h2 {
   cursor: pointer; }
   .sample1 .menu span {
     background: #FFF;
+    border-radius: 10px;
     display: block;
     height: 7px;
     width: 100%;
@@ -6856,6 +6869,7 @@ h2 {
   transition: 0.15s ease; }
   .sample2 .circle span {
     background: #FFF;
+    border-radius: 10px;
     display: block;
     height: 7px;
     width: 50px;
@@ -6868,5 +6882,32 @@ h2 {
 .sample2 .circle:hover {
   transform: rotate(-135deg);
   border: 1px solid rgba(255, 255, 255, 0.25); }
+
+.sample3 .menu {
+  margin: 0 auto;
+  width: 80px;
+  cursor: pointer; }
+  .sample3 .menu span {
+    background: #FFF;
+    border-radius: 10px;
+    display: block;
+    height: 5px;
+    width: 100%;
+    margin: 15px 0; }
+  .sample3 .menu .circle {
+    background: #FFF;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    top: -4px;
+    transition: 0.15s ease; }
+  .sample3 .menu .position-relative:nth-child(1) .circle, .sample3 .menu .position-relative:nth-child(3) .circle {
+    left: 50px; }
+  .sample3 .menu .position-relative:nth-child(2) .circle {
+    left: 15px; }
+.sample3 .menu:hover .position-relative:nth-child(1) .circle, .sample3 .menu:hover .position-relative:nth-child(3) .circle {
+  left: 15px; }
+.sample3 .menu:hover .position-relative:nth-child(2) .circle {
+  left: 50px; }
 
 /*# sourceMappingURL=main.css.map */

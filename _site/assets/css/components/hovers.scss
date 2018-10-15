@@ -5,6 +5,7 @@
         cursor: pointer;
         span{
             background: #FFF;
+            border-radius: 10px;
             display: block;
             height: 7px;
             width: 100%;
@@ -39,6 +40,7 @@
         transition: 0.15s ease;
         span{
             background: #FFF;
+            border-radius: 10px;
             display: block;
             height: 7px;
             width: 50px;
@@ -55,5 +57,43 @@
     .circle:hover{
         transform: rotate(-135deg);
         border: 1px solid rgba(255, 255, 255, 0.25);
+    }
+}
+
+.sample3{
+    .menu{
+        margin: 0 auto;
+        width: 80px;
+        cursor: pointer;
+        span{
+            background: #FFF;
+            border-radius: 10px;
+            display: block;
+            height: 5px;
+            width: 100%;
+            margin: 15px 0;
+        }
+        .circle{
+            background: #FFF;
+            width: 14px;
+            height: 14px;
+            border-radius: 50%;
+            top: -4px;
+            transition: 0.15s ease;
+        }
+        .position-relative:nth-child(1) .circle, .position-relative:nth-child(3) .circle{
+            left: 50px;
+        }
+        .position-relative:nth-child(2) .circle{
+            left: 15px;
+        }
+    }
+    .menu:hover{
+        .position-relative:nth-child(1) .circle, .position-relative:nth-child(3) .circle{
+            left: 15px;
+        }
+        .position-relative:nth-child(2) .circle{
+            left: 50px;
+        }
     }
 }
